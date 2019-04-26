@@ -4,7 +4,7 @@
   "description": "servidor de prueba destinado al uso para el desarollo y testeo de la aplicacion",
   "main": "index.js",
   "scripts": {
-    "mock:server": "json-server --watch mockData.json"
+    "mock:server": "json-server --watch mockData.json --routes routes.json --middlewares ./middleware.js"
   },
   "author": "",
   "license": "ISC",
