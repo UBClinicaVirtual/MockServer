@@ -172,7 +172,7 @@
     ]
 },
 "av_appointments" : {
-	"appointments_available": 
+	"available_appointments": 
 [
 	{
 		"id": 78,
@@ -184,6 +184,19 @@
 		"speciality_id": 1,
 		"speciality_name": "Guardia de ginecologia",
 		"appointment_hour": "18:30",
+		"day_of_the_week": 4,
+		"appointment_date": "2018-09-20"            
+	},
+	{
+		"id": 79,
+		"hcp_id": 2,
+		"hcp_first_name": "Juan Pedro",
+		"hcp_last_name": "Ortovio",			
+		"clinic_id": 1,
+		"clinic_name": "Clinica de la Santa Maria",
+		"speciality_id": 1,
+		"speciality_name": "Traumatologia",
+		"appointment_hour": "13:30",
 		"day_of_the_week": 4,
 		"appointment_date": "2018-09-20"            
 	}
