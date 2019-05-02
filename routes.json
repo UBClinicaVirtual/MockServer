@@ -1,4 +1,6 @@
 {
     "/hcp/search" : "/hcps",
-    "/clinic/search" : "/clinics"
+    "/clinic/search" : "/clinics",
+    "/user/patient/appointments" : "/appointments",
+    "/appointment/available" : "/av_appointments"
 }

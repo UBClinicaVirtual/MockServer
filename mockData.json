@@ -129,8 +129,64 @@
 			"specialities": [ {"id": 12, "name": "Guardia"} ]
 		}
 	]
+}	,
+"login" : {
+		"user": {
+			"id": 6,
+			"email": "ubelarga@gmail.com",
+			"created_at": "2018-09-20 17:30:52",
+			"updated_at": "2018-09-27 15:06:20",
+			"api_token": "HoFcCOSgtjyfD5GELBuyQ3xHZasPiBSyqGsFeDsYLXj4BewYcIEOvyqAn0iZ",
+			"active": 1,
+			"user_type_id": 1
+						}
+		},
+	"appointments" : {
+    "appointments": [
+        {
+            "id": 753,
+            "clinic_id": 123,
+            "clinic_name": "Clinica de la trinidad",
+            "speciality_id": 789,
+            "speciality_name": "Guardia de ginecologia",
+            "hcp_id": 8560,
+            "hcp_first_name": "Juan Jose",
+            "hcp_last_name": "Ingenieros",
+            "appointment_date": "2018/01/02 12:57",
+            "appointment_status_id": 1,
+            "appointment_status_name": "Pending"
+        },
+        {
+            "id": 8820,
+            "clinic_id": 123,
+            "clinic_name": "Clinica de la trinidad",
+            "speciality_id": 124,
+            "speciality_name": "Traumatologo",
+            "hcp_id": 9988,
+            "hcp_first_name": "Bernabe",
+            "hcp_last_name": "Marquez",
+            "appointment_date": "2018/04/01 16:90",
+            "appointment_status_id": 1,
+            "appointment_status_name": "Pending"
+        }
+    ]
+},
+"av_appointments" : {
+	"appointments_available": 
+[
+	{
+		"id": 78,
+		"hcp_id": 1,
+		"hcp_first_name": "Juan Jose",
+		"hcp_last_name": "Ingenieros",			
+		"clinic_id": 1,
+		"clinic_name": "Clinica de la trinidad",
+		"speciality_id": 1,
+		"speciality_name": "Guardia de ginecologia",
+		"appointment_hour": "18:30",
+		"day_of_the_week": 4,
+		"appointment_date": "2018-09-20"            
+	}
+]
 }
-
-
-	
 }
