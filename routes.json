@@ -2,5 +2,8 @@
     "/hcp/search" : "/hcps",
     "/clinic/search" : "/clinics",
     "/user/patient/appointments" : "/appointments",
-    "/appointment/available" : "/av_appointments"
+    "/appointment/available" : "/av_appointments",
+    "/user/clinic" : "/user-clinic",
+    "/user/hcp" : "/user-hcp",
+    "/user/patient" : "/user-patient"
 }
