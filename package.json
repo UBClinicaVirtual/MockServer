@@ -4,11 +4,13 @@
   "description": "servidor de prueba destinado al uso para el desarollo y testeo de la aplicacion",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec npm run mock:server",
     "mock:server": "json-server --watch mockData.json --routes routes.json --middlewares ./middleware.js --watch login.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.14.2"
+    "json-server": "^0.14.2",
+    "nodemon": "^1.19.0"
   }
 }

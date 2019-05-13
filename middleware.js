@@ -1,5 +1,5 @@
 module.exports = function (req, res, next) {
-    sleep(5000).then(() => {
+    sleep(2000).then(() => {
       if (req.method === 'POST') {
         req.method = 'GET'
         req.query = req.body
